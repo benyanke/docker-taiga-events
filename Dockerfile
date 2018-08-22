@@ -18,8 +18,8 @@ COPY --from=wsbuild /go/bin/ws /bin/ws
 
 # Set default settings
 ENV EVENT_HOST=rabbit \
-    EVENT_USER=taiga \
-    EVENT_PW= \
+    EVENT_USER=guest \
+    EVENT_PW=guest \
     EVENT_PORT=80 \
     EVENT_SECRET= \
     EVENT_RABBITPORT=5672
