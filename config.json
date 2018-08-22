@@ -1,7 +1,7 @@
 {
-    "url": "amqp://guest:guest@rabbit:5672",
-    "secret": "mysecret",
+    "url": "amqp://EVENT_USER:EVENT_PW@EVENT_HOST:EVENT_RABBITPORT",
+    "secret": "EVENT_SECRET",
     "webSocketServer": {
-        "port": 80
+        "port": EVENT_PORT
     }
 }
