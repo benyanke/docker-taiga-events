@@ -3,12 +3,12 @@ MAINTAINER Ben Yanke <ben@benyanke.com>
 
 
 # Set default settings
-ENV EVENT_HOST=4 \
+ENV EVENT_HOST=rabbit \
     EVENT_USER=taiga \
-    EVENT_PW=3 \
+    EVENT_PW= \
     EVENT_PORT=80 \
-    EVENT_SECRET=2 \
-    EVENT_RABBITPORT=5
+    EVENT_SECRET= \
+    EVENT_RABBITPORT=5672
 
 # Copy files in
 COPY taiga-events /usr/src/taiga-events
