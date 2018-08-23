@@ -7,7 +7,7 @@ services:
   events:
     # image: benhutchins/taiga-events
     build: .
-#    restart: always
+    restart: always
     networks:
       - eventnet
     labels:

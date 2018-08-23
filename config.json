@@ -1,5 +1,5 @@
 {
-    "url": "amqp://EVENT_USER:EVENT_PW@EVENT_HOST:EVENT_RABBITPORT",
+    "url": "amqp://EVENT_USER:EVENT_PW@EVENT_HOST:EVENT_RABBITPORT/EVENT_VHOST",
     "secret": "TAIGA_SECRET_KEY",
     "webSocketServer": {
         "port": EVENT_PORT

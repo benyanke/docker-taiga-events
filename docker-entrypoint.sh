@@ -11,6 +11,7 @@ sed -i 's/EVENT_USER/'"$EVENT_USER"'/g' /etc/taiga-events/config.json
 sed -i 's/EVENT_PW/'"$EVENT_PW"'/g' /etc/taiga-events/config.json
 sed -i 's/EVENT_HOST/'"$EVENT_HOST"'/g' /etc/taiga-events/config.json
 sed -i 's/EVENT_RABBITPORT/'"$EVENT_RABBITPORT"'/g' /etc/taiga-events/config.json
+sed -i 's/EVENT_VHOST/'"$EVENT_VHOST"'/g' /etc/taiga-events/config.json
 
 echo ""
 echo "Configuration done. Starting app."
