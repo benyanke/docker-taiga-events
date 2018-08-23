@@ -42,9 +42,9 @@ COPY ./docker-entrypoint.sh /
 COPY ./healthcheck.sh /
 
 # Add this later - need to test using the cmd:ping -> cmd:pong check
-HEALTHCHECK --interval=10s \
-            --timeout=3s \
-            CMD /healthcheck.sh
+#HEALTHCHECK --interval=10s \
+#            --timeout=3s \
+#            CMD /healthcheck.sh
 
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
