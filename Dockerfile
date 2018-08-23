@@ -21,7 +21,7 @@ ENV EVENT_HOST=rabbit \
     EVENT_USER=guest \
     EVENT_PW=guest \
     EVENT_PORT=80 \
-    EVENT_SECRET= \
+    TAIGA_SECRET_KEY= \
     EVENT_RABBITPORT=5672
 
 # Copy files
